@@ -9,7 +9,7 @@ var express         = require('express');
 var http            = require('http');
 var path            = require('path');
 
-var apiToken        = require('../api-token/index');
+var apiToken        = require('api-token');
 /* set expiration time to 2 minutes */
 apiToken.setExpirationTime(2);
 
