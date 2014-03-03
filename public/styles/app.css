@@ -1,0 +1,21 @@
+html,body{
+    height: 100%;
+}
+body{
+    background-color: #f0f0f0;
+}
+.container{
+    background-color: #ffffff;
+    height:100%;
+}
+.commands{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.log{
+    font-size:1.5em;
+}
+.log .status{
+    font-weight: bold;
+    margin-right: 10px;
+}
